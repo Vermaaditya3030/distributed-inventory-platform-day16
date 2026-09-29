@@ -36,7 +36,7 @@ git init
 git add .
 git commit -m "Day 16 distributed inventory and order platform"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/distributed-inventory-platform-day16.git
+git remote add origin https://github.com/Vermaaditya3030/distributed-inventory-platform-day16.git
 git push -u origin main
 ```
 
