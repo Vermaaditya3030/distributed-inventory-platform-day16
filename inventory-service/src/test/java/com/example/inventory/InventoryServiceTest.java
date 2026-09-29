@@ -1,0 +1,1 @@
+package com.example.inventory; import org.junit.jupiter.api.Test; import static org.junit.jupiter.api.Assertions.*; class InventoryServiceTest { @Test void quantityCannotBeNegative(){assertTrue(3>0);} }

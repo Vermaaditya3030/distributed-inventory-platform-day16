@@ -1,0 +1,1 @@
+package com.example.inventory.model; import jakarta.persistence.*; @Entity @Table(name="stock_items") public class StockItem { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) public Long id; @Column(unique=true,nullable=false) public String sku; public int quantity; public StockItem(){} public StockItem(String s,int q){sku=s;quantity=q;} }

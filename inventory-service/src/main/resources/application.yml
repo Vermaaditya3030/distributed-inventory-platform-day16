@@ -1,0 +1,15 @@
+spring:
+ datasource:
+  url: jdbc:postgresql://${DB_HOST:localhost}:5432/inventory
+  username: postgres
+  password: postgres
+ jpa:
+  hibernate:
+   ddl-auto: update
+management:
+ endpoints:
+  web:
+   exposure:
+    include: health,info,prometheus
+server:
+ port: 8081
